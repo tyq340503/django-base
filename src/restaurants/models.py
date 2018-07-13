@@ -8,4 +8,7 @@ class RestaurantLocation(models.Model):
     timestamp       = models.DateTimeField(auto_now_add=True)
     updated         = models.DateTimeField(auto_now=True)
     #my_date_field   = models.DateField(auto_now=False, auto_now_add=False)
+
+class Test(models.Model):
+    name = models.CharField(max_length=20)
 # Create your models here.
